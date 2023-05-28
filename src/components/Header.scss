@@ -1,0 +1,36 @@
+$primary-color:black;
+$secondary-color:white;
+
+nav{
+    background-color: $primary-color;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top:0;
+}
+nav{
+    ul{
+        display: flex;
+        align-items: center;
+    }
+  li{
+    list-style: none;
+    padding-left: 30px;
+    padding-top: 24px;
+  }
+  li{
+    a{
+        text-decoration: none;
+        color: white;
+    }
+  }
+}
+@media screen and (max-width:768px) {
+    nav{
+        height: 35vh;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
